@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2073F7BF5846473DAC4D4F7E3C7DAB5D /* Pods-MyHealthApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E17A98B6E19E66CC24821D75248940 /* Pods-MyHealthApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E3F671C572A10FE8A41F1A2771443B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76720B026417625FB62285B73CECF0BF /* Foundation.framework */; };
+		43D641F71F3BA3FE8E5467D580477CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */; };
+		53501CDC2C55E69EB2519DC7346666BF /* SwiftyJSON-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07719802292690C0743680DBD600140D /* SwiftyJSON-watchOS-dummy.m */; };
+		5B14B3DF13715203EAD55822A0927640 /* SwiftyJSON-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9825035708493FFFEBA1AA668CA6221 /* SwiftyJSON-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		695B88A96FAAFCFE9BB0D3250B35A067 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38827BEE219BF413CDEB94DDC6B605A /* SwiftyJSON.swift */; };
+		6E556ED61FE41EAEC03A799D3A903EF3 /* SwiftyJSON-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1DDD072D782C19DE016355BDD0498 /* SwiftyJSON-iOS-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F163825FB527828FF651FB9AADFF6EF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38827BEE219BF413CDEB94DDC6B605A /* SwiftyJSON.swift */; };
+		9964AF4AE5BE0C03FA7E21D9ED168FE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76720B026417625FB62285B73CECF0BF /* Foundation.framework */; };
+		A11589E4F935C27F5FE18FB1B2A96E09 /* Pods-HealthApp Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8AD8C125165434E2F8496B57EAB7F9B /* Pods-HealthApp Extension-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFC51B54BA5DF5BC56137866E0C60AA1 /* Pods-MyHealthApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42419F4FC34FF61655A16158EB13BD0D /* Pods-MyHealthApp-dummy.m */; };
+		B7C9D3D515160366E5114C5296239077 /* SwiftyJSON-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4352A0AC50F5211F941FDFE0081823EB /* SwiftyJSON-iOS-dummy.m */; };
+		C520B081166CA0E1A25397131F0265BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */; };
+		C6D9639A2593B42428AF15F7A499CB87 /* Pods-HealthApp Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 685DA07999E8718B385822DF3AAA159C /* Pods-HealthApp Extension-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F754CECBDAEC5CA76361160B027944C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D4435D4EF37CC73F50E9182D8677DD;
+			remoteInfo = "SwiftyJSON-watchOS";
+		};
+		F41BBA893846277E92B9141B1EE09E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FCF2D1E1921DADA8E80337893B7A0B9;
+			remoteInfo = "SwiftyJSON-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04615A155911DAC2A538F9CD37A55A9A /* Pods-HealthApp Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthApp Extension.release.xcconfig"; sourceTree = "<group>"; };
+		07719802292690C0743680DBD600140D /* SwiftyJSON-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftyJSON-watchOS-dummy.m"; path = "../SwiftyJSON-watchOS/SwiftyJSON-watchOS-dummy.m"; sourceTree = "<group>"; };
+		09E17A98B6E19E66CC24821D75248940 /* Pods-MyHealthApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyHealthApp-umbrella.h"; sourceTree = "<group>"; };
+		110C542A1A93D3AE1730D659A11CB694 /* Pods-MyHealthApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyHealthApp.release.xcconfig"; sourceTree = "<group>"; };
+		294113038834429370E93E6BAFCD72BA /* Pods-HealthApp Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthApp Extension-resources.sh"; sourceTree = "<group>"; };
+		2D961212593933A6D0231244B52B8263 /* SwiftyJSON-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-iOS-prefix.pch"; sourceTree = "<group>"; };
+		42419F4FC34FF61655A16158EB13BD0D /* Pods-MyHealthApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyHealthApp-dummy.m"; sourceTree = "<group>"; };
+		4352A0AC50F5211F941FDFE0081823EB /* SwiftyJSON-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-iOS-dummy.m"; sourceTree = "<group>"; };
+		474B1792E997F616F62B7B2535C51063 /* libPods-MyHealthApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyHealthApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AFF2F2B69920D05B0347118306473D /* Pods-HealthApp Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthApp Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		4CAC47D44B3021D6C3EEAECCC797EBBD /* Pods-MyHealthApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyHealthApp-resources.sh"; sourceTree = "<group>"; };
+		4D5716CC0F5418DD5EFF8AEBE842D264 /* Pods-MyHealthApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyHealthApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		593941E0F5958024F459601F58F8059F /* Pods-HealthApp Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthApp Extension-frameworks.sh"; sourceTree = "<group>"; };
+		5A382B078FBEF0E0CE83F8099B777B21 /* libPods-HealthApp Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthApp Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB1DDD072D782C19DE016355BDD0498 /* SwiftyJSON-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-iOS-umbrella.h"; path = "../../Headers/Public/SwiftyJSON/SwiftyJSON-iOS-umbrella.h"; sourceTree = "<group>"; };
+		685DA07999E8718B385822DF3AAA159C /* Pods-HealthApp Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthApp Extension-dummy.m"; sourceTree = "<group>"; };
+		76720B026417625FB62285B73CECF0BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78F448D0E54D53CE476C421C29209C2D /* SwiftyJSON-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-watchOS-prefix.pch"; path = "../SwiftyJSON-watchOS/SwiftyJSON-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		80299E577BE450E512BCDE56756B0307 /* SwiftyJSON-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftyJSON-watchOS.xcconfig"; path = "../SwiftyJSON-watchOS/SwiftyJSON-watchOS.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966B6C5678E328C7AC6FEFFF1F6C1B8E /* Pods-HealthApp Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthApp Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		A23293E44191E77C9AC14A505FA4A3A4 /* SwiftyJSON-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftyJSON-iOS.xcconfig"; sourceTree = "<group>"; };
+		A38827BEE219BF413CDEB94DDC6B605A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		A8AD8C125165434E2F8496B57EAB7F9B /* Pods-HealthApp Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthApp Extension-umbrella.h"; sourceTree = "<group>"; };
+		A9825035708493FFFEBA1AA668CA6221 /* SwiftyJSON-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-watchOS-umbrella.h"; path = "../../Headers/Public/SwiftyJSON/SwiftyJSON-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		B0F792B3C88FFEDA8AD2A9629EB4B38F /* SwiftyJSON-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftyJSON-watchOS.modulemap"; path = "../../Headers/Public/SwiftyJSON/SwiftyJSON-watchOS.modulemap"; sourceTree = "<group>"; };
+		B1BF6599D955998FD78639F40240B85B /* Pods-MyHealthApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyHealthApp.modulemap"; sourceTree = "<group>"; };
+		BAC67833C8D7258B62EEE5B529D39D16 /* SwiftyJSON-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftyJSON-iOS.modulemap"; path = "../../Headers/Public/SwiftyJSON/SwiftyJSON-iOS.modulemap"; sourceTree = "<group>"; };
+		BAE410CBEBADCFD62BCB36668E99BD4C /* Pods-HealthApp Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthApp Extension.modulemap"; sourceTree = "<group>"; };
+		BE80C1F0728D44B8141E67F856FD74F7 /* Pods-MyHealthApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyHealthApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C79BE97E9D22CBD98378B434414F3128 /* libSwiftyJSON-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSwiftyJSON-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF854CBAD267698A7F550AD7F820EB92 /* libSwiftyJSON-watchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSwiftyJSON-watchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2415CC70335BE18984A97EBDCB029B3 /* Pods-MyHealthApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyHealthApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EAD0CCD20EBE9C4191DD0DC1631A90C6 /* Pods-HealthApp Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthApp Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAE07BB394F4E7F4065799F2EE76ABF1 /* Pods-MyHealthApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyHealthApp-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B807FE3F3FC1EB5273338D5FDEB9D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9964AF4AE5BE0C03FA7E21D9ED168FE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C38746BB55A085D81E4FC75E1EC02A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C520B081166CA0E1A25397131F0265BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DE462A7A64B8F9671C0CE02E396E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D641F71F3BA3FE8E5467D580477CC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD01182A613496FFDDDAC663308CEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3F671C572A10FE8A41F1A2771443B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD226CEB84D2E7EE3E146147542EF88 /* Pods-MyHealthApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1BF6599D955998FD78639F40240B85B /* Pods-MyHealthApp.modulemap */,
+				BE80C1F0728D44B8141E67F856FD74F7 /* Pods-MyHealthApp-acknowledgements.markdown */,
+				4D5716CC0F5418DD5EFF8AEBE842D264 /* Pods-MyHealthApp-acknowledgements.plist */,
+				42419F4FC34FF61655A16158EB13BD0D /* Pods-MyHealthApp-dummy.m */,
+				FAE07BB394F4E7F4065799F2EE76ABF1 /* Pods-MyHealthApp-frameworks.sh */,
+				4CAC47D44B3021D6C3EEAECCC797EBBD /* Pods-MyHealthApp-resources.sh */,
+				09E17A98B6E19E66CC24821D75248940 /* Pods-MyHealthApp-umbrella.h */,
+				D2415CC70335BE18984A97EBDCB029B3 /* Pods-MyHealthApp.debug.xcconfig */,
+				110C542A1A93D3AE1730D659A11CB694 /* Pods-MyHealthApp.release.xcconfig */,
+			);
+			name = "Pods-MyHealthApp";
+			path = "Target Support Files/Pods-MyHealthApp";
+			sourceTree = "<group>";
+		};
+		1126013474B79EE561C2FAE14E2AD89C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2EFE8577612F3DFDC647BDD86860A0 /* Pods-HealthApp Extension */,
+				0DD226CEB84D2E7EE3E146147542EF88 /* Pods-MyHealthApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F8E2D8B05B17DD81FB067BC578930EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A382B078FBEF0E0CE83F8099B777B21 /* libPods-HealthApp Extension.a */,
+				474B1792E997F616F62B7B2535C51063 /* libPods-MyHealthApp.a */,
+				C79BE97E9D22CBD98378B434414F3128 /* libSwiftyJSON-iOS.a */,
+				CF854CBAD267698A7F550AD7F820EB92 /* libSwiftyJSON-watchOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		482EA88B9136A5A573514953C7FCB52D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDE7E6C756FE51216AA3F19811305B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
+				3F8E2D8B05B17DD81FB067BC578930EE /* Products */,
+				1126013474B79EE561C2FAE14E2AD89C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				482EA88B9136A5A573514953C7FCB52D /* iOS */,
+				FD9E2CBABDA1AB35BAD3C3F041262069 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50FFD9A397DAE4CCDE16ADE45C3B9DC /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				A38827BEE219BF413CDEB94DDC6B605A /* SwiftyJSON.swift */,
+				BD55C7751B1F65E456D4AECB366745E7 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A50FFD9A397DAE4CCDE16ADE45C3B9DC /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD55C7751B1F65E456D4AECB366745E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAC67833C8D7258B62EEE5B529D39D16 /* SwiftyJSON-iOS.modulemap */,
+				A23293E44191E77C9AC14A505FA4A3A4 /* SwiftyJSON-iOS.xcconfig */,
+				4352A0AC50F5211F941FDFE0081823EB /* SwiftyJSON-iOS-dummy.m */,
+				2D961212593933A6D0231244B52B8263 /* SwiftyJSON-iOS-prefix.pch */,
+				5BB1DDD072D782C19DE016355BDD0498 /* SwiftyJSON-iOS-umbrella.h */,
+				B0F792B3C88FFEDA8AD2A9629EB4B38F /* SwiftyJSON-watchOS.modulemap */,
+				80299E577BE450E512BCDE56756B0307 /* SwiftyJSON-watchOS.xcconfig */,
+				07719802292690C0743680DBD600140D /* SwiftyJSON-watchOS-dummy.m */,
+				78F448D0E54D53CE476C421C29209C2D /* SwiftyJSON-watchOS-prefix.pch */,
+				A9825035708493FFFEBA1AA668CA6221 /* SwiftyJSON-watchOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON-iOS";
+			sourceTree = "<group>";
+		};
+		CC2EFE8577612F3DFDC647BDD86860A0 /* Pods-HealthApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BAE410CBEBADCFD62BCB36668E99BD4C /* Pods-HealthApp Extension.modulemap */,
+				EAD0CCD20EBE9C4191DD0DC1631A90C6 /* Pods-HealthApp Extension-acknowledgements.markdown */,
+				966B6C5678E328C7AC6FEFFF1F6C1B8E /* Pods-HealthApp Extension-acknowledgements.plist */,
+				685DA07999E8718B385822DF3AAA159C /* Pods-HealthApp Extension-dummy.m */,
+				593941E0F5958024F459601F58F8059F /* Pods-HealthApp Extension-frameworks.sh */,
+				294113038834429370E93E6BAFCD72BA /* Pods-HealthApp Extension-resources.sh */,
+				A8AD8C125165434E2F8496B57EAB7F9B /* Pods-HealthApp Extension-umbrella.h */,
+				47AFF2F2B69920D05B0347118306473D /* Pods-HealthApp Extension.debug.xcconfig */,
+				04615A155911DAC2A538F9CD37A55A9A /* Pods-HealthApp Extension.release.xcconfig */,
+			);
+			name = "Pods-HealthApp Extension";
+			path = "Target Support Files/Pods-HealthApp Extension";
+			sourceTree = "<group>";
+		};
+		FD9E2CBABDA1AB35BAD3C3F041262069 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				76720B026417625FB62285B73CECF0BF /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F82E9546E83B4EBDF0C3A19947A5604 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B14B3DF13715203EAD55822A0927640 /* SwiftyJSON-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E5408905A1DC2525E3F741C6ED75E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E556ED61FE41EAEC03A799D3A903EF3 /* SwiftyJSON-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE8A09144CDC76A6CD59ED69A849FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2073F7BF5846473DAC4D4F7E3C7DAB5D /* Pods-MyHealthApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE52DA190CF4E87ED153EE9FB447279 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11589E4F935C27F5FE18FB1B2A96E09 /* Pods-HealthApp Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BA0A8C380B1F44B3A4377603F673980 /* Pods-HealthApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C5F8995A066A65361F27B6BCD87288 /* Build configuration list for PBXNativeTarget "Pods-HealthApp Extension" */;
+			buildPhases = (
+				E0A375C52E1862D149033989FE60641D /* Sources */,
+				2B807FE3F3FC1EB5273338D5FDEB9D30 /* Frameworks */,
+				DEE52DA190CF4E87ED153EE9FB447279 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16A0A9644E276F9275A9DF672BACBD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthApp Extension";
+			productName = "Pods-HealthApp Extension";
+			productReference = 5A382B078FBEF0E0CE83F8099B777B21 /* libPods-HealthApp Extension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5FCF2D1E1921DADA8E80337893B7A0B9 /* SwiftyJSON-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26018D025EF324155B88255933A45DD2 /* Build configuration list for PBXNativeTarget "SwiftyJSON-iOS" */;
+			buildPhases = (
+				DF3A91A784C7D659193DDE7BCD9F9FC2 /* Sources */,
+				88DE462A7A64B8F9671C0CE02E396E4D /* Frameworks */,
+				A4E5408905A1DC2525E3F741C6ED75E6 /* Headers */,
+				C218B132A5876BB6CC3C8F9E446512C6 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJSON-iOS";
+			productName = "SwiftyJSON-iOS";
+			productReference = C79BE97E9D22CBD98378B434414F3128 /* libSwiftyJSON-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8E222CA579B04E0C388C61A6D2C39805 /* Pods-MyHealthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A04F7C98DD83DA5863202B4C90F511 /* Build configuration list for PBXNativeTarget "Pods-MyHealthApp" */;
+			buildPhases = (
+				19671868CBD6EC0C39C1E985590A7F01 /* Sources */,
+				85C38746BB55A085D81E4FC75E1EC02A /* Frameworks */,
+				ABBE8A09144CDC76A6CD59ED69A849FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4EBD393DAEF3153564C191E74BFBB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyHealthApp";
+			productName = "Pods-MyHealthApp";
+			productReference = 474B1792E997F616F62B7B2535C51063 /* libPods-MyHealthApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1D4435D4EF37CC73F50E9182D8677DD /* SwiftyJSON-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73FDCA2EBB43CC764B3FB2D706A95A80 /* Build configuration list for PBXNativeTarget "SwiftyJSON-watchOS" */;
+			buildPhases = (
+				1146E8688C322E52F53B72C6453C4F85 /* Sources */,
+				DBD01182A613496FFDDDAC663308CEAC /* Frameworks */,
+				9F82E9546E83B4EBDF0C3A19947A5604 /* Headers */,
+				71EC041E4AD7CA27BBA6BA16DB7CAA17 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJSON-watchOS";
+			productName = "SwiftyJSON-watchOS";
+			productReference = CF854CBAD267698A7F550AD7F820EB92 /* libSwiftyJSON-watchOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3F8E2D8B05B17DD81FB067BC578930EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA0A8C380B1F44B3A4377603F673980 /* Pods-HealthApp Extension */,
+				8E222CA579B04E0C388C61A6D2C39805 /* Pods-MyHealthApp */,
+				5FCF2D1E1921DADA8E80337893B7A0B9 /* SwiftyJSON-iOS */,
+				F1D4435D4EF37CC73F50E9182D8677DD /* SwiftyJSON-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71EC041E4AD7CA27BBA6BA16DB7CAA17 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftyJSON/SwiftyJSON-watchOS.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftyJSON/SwiftyJSON-watchOS-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-watchOS-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyJSON/SwiftyJSON-watchOS.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyJSON/SwiftyJSON-watchOS-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		C218B132A5876BB6CC3C8F9E446512C6 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftyJSON/SwiftyJSON-iOS.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftyJSON/SwiftyJSON-iOS-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyJSON/SwiftyJSON-iOS.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyJSON/SwiftyJSON-iOS-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1146E8688C322E52F53B72C6453C4F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53501CDC2C55E69EB2519DC7346666BF /* SwiftyJSON-watchOS-dummy.m in Sources */,
+				695B88A96FAAFCFE9BB0D3250B35A067 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19671868CBD6EC0C39C1E985590A7F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC51B54BA5DF5BC56137866E0C60AA1 /* Pods-MyHealthApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3A91A784C7D659193DDE7BCD9F9FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C9D3D515160366E5114C5296239077 /* SwiftyJSON-iOS-dummy.m in Sources */,
+				6F163825FB527828FF651FB9AADFF6EF /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A375C52E1862D149033989FE60641D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D9639A2593B42428AF15F7A499CB87 /* Pods-HealthApp Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B16A0A9644E276F9275A9DF672BACBD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON-watchOS";
+			target = F1D4435D4EF37CC73F50E9182D8677DD /* SwiftyJSON-watchOS */;
+			targetProxy = 4F754CECBDAEC5CA76361160B027944C /* PBXContainerItemProxy */;
+		};
+		EB4EBD393DAEF3153564C191E74BFBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON-iOS";
+			target = 5FCF2D1E1921DADA8E80337893B7A0B9 /* SwiftyJSON-iOS */;
+			targetProxy = F41BBA893846277E92B9141B1EE09E9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1868E4DAD218EFB96D8A227E90520CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23293E44191E77C9AC14A505FA4A3A4 /* SwiftyJSON-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/SwiftyJSON/SwiftyJSON-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = "SwiftyJSON-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FCC37F0F4CFAAD8136B4C06B4AE40F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		756B42A14AB3E4E5AD9EC09F043022FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04615A155911DAC2A538F9CD37A55A9A /* Pods-HealthApp Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthApp Extension/Pods-HealthApp Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		7BBE05C532F571C7035FF8A370A2E4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110C542A1A93D3AE1730D659A11CB694 /* Pods-MyHealthApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyHealthApp/Pods-MyHealthApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91AF611861C5F4B95CC9903BF58B4EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AFF2F2B69920D05B0347118306473D /* Pods-HealthApp Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthApp Extension/Pods-HealthApp Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		B833C9CCA0F8FA31D34D6E87BFBF75A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23293E44191E77C9AC14A505FA4A3A4 /* SwiftyJSON-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/SwiftyJSON/SwiftyJSON-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = "SwiftyJSON-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D712EF82B44C4AD6A3A995FE91D812E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2415CC70335BE18984A97EBDCB029B3 /* Pods-MyHealthApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyHealthApp/Pods-MyHealthApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0418771636CD27AC2D069CACB4B3ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80299E577BE450E512BCDE56756B0307 /* SwiftyJSON-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-watchOS/SwiftyJSON-watchOS-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/SwiftyJSON/SwiftyJSON-watchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = "SwiftyJSON-watchOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E3C2E35983571184D20C7FD35D2A3E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80299E577BE450E512BCDE56756B0307 /* SwiftyJSON-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-watchOS/SwiftyJSON-watchOS-prefix.pch";
+				MODULEMAP_FILE = "Headers/Public/SwiftyJSON/SwiftyJSON-watchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = "SwiftyJSON-watchOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F241B82773A265804CB2F080B5199959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26018D025EF324155B88255933A45DD2 /* Build configuration list for PBXNativeTarget "SwiftyJSON-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868E4DAD218EFB96D8A227E90520CF3 /* Debug */,
+				B833C9CCA0F8FA31D34D6E87BFBF75A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FCC37F0F4CFAAD8136B4C06B4AE40F0 /* Debug */,
+				F241B82773A265804CB2F080B5199959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73FDCA2EBB43CC764B3FB2D706A95A80 /* Build configuration list for PBXNativeTarget "SwiftyJSON-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C2E35983571184D20C7FD35D2A3E10 /* Debug */,
+				E0418771636CD27AC2D069CACB4B3ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A04F7C98DD83DA5863202B4C90F511 /* Build configuration list for PBXNativeTarget "Pods-MyHealthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D712EF82B44C4AD6A3A995FE91D812E9 /* Debug */,
+				7BBE05C532F571C7035FF8A370A2E4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C5F8995A066A65361F27B6BCD87288 /* Build configuration list for PBXNativeTarget "Pods-HealthApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AF611861C5F4B95CC9903BF58B4EE3 /* Debug */,
+				756B42A14AB3E4E5AD9EC09F043022FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

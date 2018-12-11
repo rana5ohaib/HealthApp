@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ibd-pk-1JC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Health App-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyHealthApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Activity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHr-MA-MC4" userLabel="TodayLabel">
+                                <rect key="frame" x="65" y="101.5" width="245" height="48"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4yI-0R-VTp" customClass="HKActivityRing" customModule="MyHealthApp" customModuleProvider="target">
+                                <rect key="frame" x="87" y="201.5" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="LRU-h9-zBZ"/>
+                                    <constraint firstAttribute="width" constant="200" id="ehH-lI-P9Z"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMh-64-V5Q">
+                                <rect key="frame" x="30" y="514" width="315" height="50"/>
+                                <color key="backgroundColor" red="0.12621855449944991" green="0.12713939342760816" blue="0.14119127120463371" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Tz6-dC-iTy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="Start New Workout">
+                                    <color key="titleColor" red="0.96465145808368646" green="0.9668254331939552" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="27"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startWorkoutPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eF3-lo-thS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zMh-64-V5Q" secondAttribute="bottom" constant="39" id="6Jc-k8-PMK"/>
+                            <constraint firstItem="zMh-64-V5Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="A8S-lh-yFR"/>
+                            <constraint firstItem="zMh-64-V5Q" firstAttribute="top" secondItem="4yI-0R-VTp" secondAttribute="bottom" constant="110" id="DDd-nJ-8Z7"/>
+                            <constraint firstItem="4yI-0R-VTp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dvn-Wj-xXA"/>
+                            <constraint firstItem="bHr-MA-MC4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XFm-NM-Iyq"/>
+                            <constraint firstItem="bHr-MA-MC4" firstAttribute="top" secondItem="4yI-0R-VTp" secondAttribute="top" constant="-100" id="jnc-E7-xYn"/>
+                            <constraint firstItem="4yI-0R-VTp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sZM-6Y-Qvm"/>
+                            <constraint firstItem="zMh-64-V5Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xKR-gJ-05N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DDd-nJ-8Z7"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Health App" id="TJp-Tz-Oxn">
+                        <barButtonItem key="backBarButtonItem" title=" " id="fn2-eX-gri"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityRing" destination="4yI-0R-VTp" id="8u3-Ta-LiQ"/>
+                        <outlet property="todayLabel" destination="bHr-MA-MC4" id="4z5-JG-GM6"/>
+                        <segue destination="SwJ-8J-RHa" kind="show" identifier="toWorkData" id="KeN-IC-Rcm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="961" y="133"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bLf-JT-kiJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ibd-pk-1JC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="2vV-wm-cPe">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="21"/>
+                            <color key="textColor" white="1" alpha="0.75497645547945202" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hWm-mw-Se6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AjZ-cK-GSB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="183" y="133"/>
+        </scene>
+        <!--workData-->
+        <scene sceneID="mZa-Ug-i4a">
+            <objects>
+                <viewController title="workData" id="SwJ-8J-RHa" customClass="WorkDataViewController" customModule="MyHealthApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rTp-8Q-UEF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gLq-2k-d75">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="customCell" rowHeight="100" id="IrT-Jp-FtU" customClass="CustomTableViewCell" customModule="MyHealthApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IrT-Jp-FtU" id="MzL-97-UjI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m9q-Wl-cUI">
+                                                    <rect key="frame" x="10" y="10" width="355" height="80"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="B6Q-rV-UnW">
+                                                            <rect key="frame" x="10" y="5" width="340" height="70"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8K6-Ou-M6s">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="340" height="35"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxv-oJ-Ib8" userLabel="cellDetailText">
+                                                                    <rect key="frame" x="0.0" y="35" width="340" height="35"/>
+                                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.15027344728245812" green="0.14954748859993416" blue="0.15099940596498207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="B6Q-rV-UnW" secondAttribute="trailing" constant="5" id="S0a-5t-DUy"/>
+                                                        <constraint firstItem="B6Q-rV-UnW" firstAttribute="leading" secondItem="m9q-Wl-cUI" secondAttribute="leading" constant="10" id="bvv-aO-0A5"/>
+                                                        <constraint firstAttribute="bottom" secondItem="B6Q-rV-UnW" secondAttribute="bottom" constant="5" id="cUn-TQ-dSZ"/>
+                                                        <constraint firstItem="B6Q-rV-UnW" firstAttribute="top" secondItem="m9q-Wl-cUI" secondAttribute="top" constant="5" id="lnr-lP-Spp"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="m9q-Wl-cUI" secondAttribute="bottom" constant="10" id="IWU-Ba-A3t"/>
+                                                <constraint firstAttribute="trailing" secondItem="m9q-Wl-cUI" secondAttribute="trailing" constant="10" id="kpN-OC-EMo"/>
+                                                <constraint firstItem="m9q-Wl-cUI" firstAttribute="top" secondItem="MzL-97-UjI" secondAttribute="top" constant="10" id="rfC-k8-kxe"/>
+                                                <constraint firstItem="m9q-Wl-cUI" firstAttribute="leading" secondItem="MzL-97-UjI" secondAttribute="leading" constant="10" id="v9B-74-my7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <outlet property="cellDetailTitle" destination="uxv-oJ-Ib8" id="ns1-Cg-MBW"/>
+                                            <outlet property="cellTitle" destination="8K6-Ou-M6s" id="OQ2-8V-9YZ"/>
+                                            <outlet property="cellView" destination="m9q-Wl-cUI" id="Myw-a3-39T"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wCW-55-gnX" firstAttribute="bottom" secondItem="gLq-2k-d75" secondAttribute="bottom" id="337-Uw-sek"/>
+                            <constraint firstItem="wCW-55-gnX" firstAttribute="trailing" secondItem="gLq-2k-d75" secondAttribute="trailing" id="R76-ic-wAE"/>
+                            <constraint firstItem="gLq-2k-d75" firstAttribute="top" secondItem="wCW-55-gnX" secondAttribute="top" id="mwQ-8u-S5n"/>
+                            <constraint firstItem="gLq-2k-d75" firstAttribute="leading" secondItem="wCW-55-gnX" secondAttribute="leading" id="n9f-LQ-ual"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wCW-55-gnX"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Health App" id="bs7-gk-q5d"/>
+                    <connections>
+                        <outlet property="tableView" destination="gLq-2k-d75" id="yli-YN-99e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ykn-5v-MKA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1718" y="133"/>
+        </scene>
+    </scenes>
+</document>
